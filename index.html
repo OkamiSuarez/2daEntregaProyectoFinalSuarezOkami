@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap" rel="stylesheet">
+  <title>Suplementos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>SCOOP</h1>
+</header>
+
+<section id="informacionImportante">
+  <p>Llena tus datos correctamente porfavor, si tienes algun error cierra la pagina y vuelve a abrirla para poder llenar tus datos nuevamente</p>
+</section>
+
+
+  <form id="form">
+    <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" id="nombre" class="slider" required>
+            <br>
+    <label for="nombre">Ingrese su direccion:</label>
+        <input type="text" id="direccion" class="slider" required>
+            <br>
+    <label for="nombre">Confirme su direccion:</label>
+        <input type="text" id="confirmarDireccion" class="slider" required>
+            <br>
+    <label for="nombre">Ingrese su teléfono</label>
+        <input type="number" id="telefono" class="slider" required>
+            <br>
+    <label for="nombre">Porfavor revisa que todos los datos sean correctos</label>
+            <br>
+            <br>
+                <input type="submit" value="Enviar" id="botonForm">
+  </form>
+
+<br>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div id="producto-contenedor">
+        <!-- Este es el stock -->
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row2">
+  <div class="column2">
+    <div id="carrito">
+     <!-- Este es el carrito de cards comprados -->
+    </div>
+  </div>
+</div>
+
+
+<div id="totales">
+</div>
+
+<br>
+
+
+<!-- aqui va el footer  -->
+<!-- <footer id="foot">
+  <span>Segunda entrega proyecto final</span>
+  <span>Suárez Valdivia Guimi Okami</span>
+  <span>Comision 37725</span>
+</footer> -->
+
+<script src="stock.js"></script>
+<script src="main.js"></script>
+
+</body>
+
+</html>
